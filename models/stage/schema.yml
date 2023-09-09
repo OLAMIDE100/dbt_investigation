@@ -1,0 +1,19 @@
+version: 2
+
+
+sources:
+  - name: google_sheet_source
+    database: mide-dbt-project 
+    schema: source
+    tables:
+      - name: google_sheet
+
+
+models:
+  - name: google_sheet_stage
+    columns:
+      - name: Id
+        tests:
+          - unique
+          - not_null
+              

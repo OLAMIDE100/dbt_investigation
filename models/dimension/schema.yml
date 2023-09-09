@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: class
+    columns:
+      - name: class_name
+        tests:
+          - unique
+              
+  - name: status
+    columns:
+      - name: status_name
+        tests:
+          - unique

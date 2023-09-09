@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: class_count
+    columns:
+      - name: class
+        tests:
+          - unique
+              
+  
