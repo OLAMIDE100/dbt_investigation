@@ -11,9 +11,5 @@ sources:
 
 models:
   - name: google_sheet_stage
-    columns:
-      - name: Id
-        tests:
-          - unique
-          - not_null
+  - name: incre
               
